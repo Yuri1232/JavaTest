@@ -19,8 +19,8 @@ class ReadFile {
                             int value1 = Integer.parseInt(String.valueOf(data.charAt(i)));
                             int value2 = Integer.parseInt(String.valueOf(data.charAt(j)));
                             if (value1 >= 1 && value2 >= 0) {
-                                System.out.println(value1);
-                                System.out.println(value2);
+                                System.out.println(data);
+
                             }
                         }
 
